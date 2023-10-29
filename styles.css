@@ -4,29 +4,28 @@ body, h1, h2, h3, p, ul {
     padding: 0;
 }
 
-/* Set a calming background color */
+/* Set a trendy background color */
 body {
-    background-color: #f2f7f7; /* Light grayish-blue background */
+    background-color: #f5f5f5; /* Light gray background */
     color: #333; /* Dark gray text */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
-/* Style the header with a modern gradient background and text shadow */
+/* Style the header with a gradient background and bold text */
 header {
-    background: linear-gradient(to right, #74ebd5, #acb6e5); /* Gradient from green to purple */
-    color: #ffffff;
-    padding: 40px;
+    background: linear-gradient(to right, #ff6f61, #ffcc5c); /* Gradient from red to yellow */
+    color: #ffffff; /* White text */
+    padding: 20px;
     text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for contrast */
 }
 
-/* Style the navigation menu with a subtle box shadow */
+/* Style the navigation menu with a subtle shadow effect */
 nav ul {
     list-style-type: none;
-    background-color: #ffffff; /* White background for menu */
+    background-color: #333; /* Dark gray background for menu */
     padding: 10px;
     text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 
 nav ul li {
@@ -35,14 +34,14 @@ nav ul li {
 }
 
 nav a {
-    color: #555; /* Dark gray text */
+    color: #ffffff; /* White text */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #74ebd5; /* Green color on hover */
+    color: #ff6f61; /* Red color on hover */
 }
 
 /* Style the main content with a subtle gradient background */
@@ -51,7 +50,7 @@ nav a:hover {
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    background: linear-gradient(to bottom, #ffffff, #f2f7f7); /* Gradient from white to light gray */
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5); /* Gradient from white to light gray */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft box shadow effect */
 }
@@ -59,13 +58,13 @@ nav a:hover {
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #333; /* Dark gray color for headings */
+    color: #ff6f61; /* Red color for headings */
 }
 
 h2 {
     font-size: 2em;
     margin-bottom: 15px;
-    color: #555; /* Slightly lighter gray color for subheadings */
+    color: #333; /* Dark gray color for subheadings */
 }
 
 p {
@@ -74,21 +73,21 @@ p {
     margin-bottom: 20px;
 }
 
-/* Style links within the content with a subtle color change */
+/* Style links within the content with a smooth color transition */
 a {
-    color: #74ebd5;
+    color: #ff6f61; /* Red color for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #acb6e5; /* Lighter purple color on hover */
+    color: #ffcc5c; /* Yellow color on hover */
 }
 
-/* Style footer with a dark background and white text */
+/* Style the footer with a dark background and white text */
 footer {
     background-color: #333; /* Dark background color */
     color: #ffffff; /* White text */
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
