@@ -6,10 +6,10 @@ body, h1, h2, h3, p, ul {
 
 /* Set a trendy background color */
 body {
-    background-color: #659DBD; /* Light gray background */
+    background-color: #f5f5f5; /* Light gray background */
     color: #333; /* Dark gray text */
-    margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
+}
 
 /* Style the header with a gradient background and bold text */
 header {
@@ -19,6 +19,30 @@ header {
     text-align: center;
 }
 
+/* Style the navigation menu with a subtle shadow effect */
+nav ul {
+    list-style-type: none;
+    background-color: #333; /* Dark gray background for menu */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6f61; /* Red color on hover */
+}
 
 /* Style the main content with a subtle gradient background */
 .container {
@@ -66,100 +90,4 @@ footer {
     color: #ffffff; /* White text */
     text-align: center;
     padding: 20px;
-}
-
-        .side-nav {
-            display: flex;
-            flex-direction: column;
-            background-color: #191b1f;
-            height: 100vh;
-            width: 230px;
-            padding-top: 5vh;
-        }
-        
-        #close{
-            position: relative;
-            color: white;
-            top: -3%;
-            left: 81%;
-        }
-        #close:hover, #ham:hover{
-            color: gray;
-            cursor: pointer;
-
-        }
-        #ham{
-            position: absolute;
-            top: 3%;
-            left: 3%;
-            color: white;
-            background-color: #191b1f;
-            border-radius: 25px;
-            padding: 8px;
-            display: none;
-        }
-        
-        .menu {
-            margin-left: 15px;
-        }
-        
-        ul {
-            display: flex;
-            flex-direction: column;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-        }
-        
-        a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            padding: 0 20px;
-            border-bottom: 1px solid rgb(97, 94, 94);
-        }
-        
-        a:hover {
-            background-color: rgb(19, 18, 18);
-            color: rgb(148, 145, 145);
-        }
-        
-        li {
-            list-style-type: none;
-            display: flex;
-            align-items: center;
-            margin: 15px auto;
-        }
-        
-        .material-icons-outlined {
-            font-size: 30px;
-        }
-        
-        header {
-            font-size: 30px;
-            margin: 0;
-            padding: 10px;
-            border-bottom: 1px solid rgb(97, 94, 94);
-            text-align: center;
-            color: white;
-            user-select: none;
-        }
-        @media screen and (max-width:600px) {
-            .side-nav{
-                display: none;
-            }
-            #ham{
-                display: block;
-            }
-        }
-
-    
-
-.content {
-    margin-left: 250px;
-    padding: 20px;
-}
-
-header, section, footer {
-    margin-bottom: 40px;
 }
