@@ -1,23 +1,32 @@
----
----
-
-@import "{{ site.theme }}";
-
-body {
-    font-family: Arial, sans-serif;
+/* Reset default styles */
+body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+/* Set a calming background color */
+body {
+    background-color: #aee9e8; /* Light blue-green */
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif;
 }
 
+/* Style the header with a water-like texture */
+header {
+    background-image: url('water-texture.jpg'); /* Replace with a water texture image */
+    background-size: cover;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    background-blur: 5px; /* Apply a slight blur to the background image */
+}
+
+/* Style the navigation menu */
 nav ul {
     list-style-type: none;
+    background-color: #333; /* Dark gray background for contrast */
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul li {
@@ -26,31 +35,61 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
+nav a:hover {
+    color: #aee9e8; /* Light blue-green color on hover */
+}
+
+/* Style the main content with a soft gradient */
 .container {
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px;
-}
-
-section {
-    padding: 50px 0;
+    padding: 40px;
     text-align: center;
+    background: linear-gradient(to bottom, #aee9e8, #ffffff); /* Gradient from light blue-green to white */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
 }
 
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #0080ff; /* Bright blue color for headings */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #004080; /* Darker blue color for subheadings */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style links within the content */
+a {
+    color: #0080ff;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #004080; /* Darker blue color on hover */
+}
+
+/* Style footer with water droplet pattern */
 footer {
-    background-color: #333;
-    color: white;
+    background-image: url('water-droplets.jpg'); /* Replace with a water droplet pattern image */
+    background-size: cover;
+    color: #ffffff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.project {
-    margin-bottom: 30px;
+    padding: 40px;
 }
