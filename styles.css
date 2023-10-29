@@ -6,27 +6,27 @@ body, h1, h2, h3, p, ul {
 
 /* Set a calming background color */
 body {
-    background-color: #aee9e8; /* Light blue-green */
+    background-color: #f2f7f7; /* Light grayish-blue background */
     color: #333; /* Dark gray text */
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Style the header with a water-like texture */
+/* Style the header with a modern gradient background and text shadow */
 header {
-    background-image: url('water-texture.jpg'); /* Replace with a water texture image */
-    background-size: cover;
+    background: linear-gradient(to right, #74ebd5, #acb6e5); /* Gradient from green to purple */
     color: #ffffff;
     padding: 40px;
     text-align: center;
-    background-blur: 5px; /* Apply a slight blur to the background image */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for contrast */
 }
 
-/* Style the navigation menu */
+/* Style the navigation menu with a subtle box shadow */
 nav ul {
     list-style-type: none;
-    background-color: #333; /* Dark gray background for contrast */
+    background-color: #ffffff; /* White background for menu */
     padding: 10px;
     text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 
 nav ul li {
@@ -35,37 +35,37 @@ nav ul li {
 }
 
 nav a {
-    color: #ffffff;
+    color: #555; /* Dark gray text */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #aee9e8; /* Light blue-green color on hover */
+    color: #74ebd5; /* Green color on hover */
 }
 
-/* Style the main content with a soft gradient */
+/* Style the main content with a subtle gradient background */
 .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 40px;
     text-align: center;
-    background: linear-gradient(to bottom, #aee9e8, #ffffff); /* Gradient from light blue-green to white */
+    background: linear-gradient(to bottom, #ffffff, #f2f7f7); /* Gradient from white to light gray */
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft box shadow effect */
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #0080ff; /* Bright blue color for headings */
+    color: #333; /* Dark gray color for headings */
 }
 
 h2 {
     font-size: 2em;
     margin-bottom: 15px;
-    color: #004080; /* Darker blue color for subheadings */
+    color: #555; /* Slightly lighter gray color for subheadings */
 }
 
 p {
@@ -74,22 +74,21 @@ p {
     margin-bottom: 20px;
 }
 
-/* Style links within the content */
+/* Style links within the content with a subtle color change */
 a {
-    color: #0080ff;
-    text-decoration: underline;
+    color: #74ebd5;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #004080; /* Darker blue color on hover */
+    color: #acb6e5; /* Lighter purple color on hover */
 }
 
-/* Style footer with water droplet pattern */
+/* Style footer with a dark background and white text */
 footer {
-    background-image: url('water-droplets.jpg'); /* Replace with a water droplet pattern image */
-    background-size: cover;
-    color: #ffffff;
+    background-color: #333; /* Dark background color */
+    color: #ffffff; /* White text */
     text-align: center;
     padding: 40px;
 }
