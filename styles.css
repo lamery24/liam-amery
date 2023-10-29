@@ -19,30 +19,6 @@ header {
     text-align: center;
 }
 
-/* Style the navigation menu with a subtle shadow effect */
-nav ul {
-    list-style-type: none;
-    background-color: #333; /* Dark gray background for menu */
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav a {
-    color: #ffffff; /* White text */
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #ff6f61; /* Red color on hover */
-}
 
 /* Style the main content with a subtle gradient background */
 .container {
@@ -107,7 +83,10 @@ footer {
 
 .sidebar nav ul {
     list-style-type: none;
-    padding: 0;
+    background-color: #333; /* Dark gray background for menu */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
 }
 
 .sidebar nav ul li {
@@ -115,16 +94,14 @@ footer {
 }
 
 .sidebar nav ul li a {
-    color: #fff;
+    color: #ffffff; /* White text */
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: 0.3s;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 .sidebar nav ul li a:hover {
-    background-color: #555;
+    color: #ff6f61; /* Red color on hover */
 }
 
 .content {
