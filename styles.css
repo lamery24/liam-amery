@@ -8,8 +8,8 @@ body, h1, h2, h3, p, ul {
 body {
     background-color: #659DBD; /* Light gray background */
     color: #333; /* Dark gray text */
-    font-family: 'Roboto', Arial, sans-serif;
-}
+    margin: 0;
+    font-family: Arial, sans-serif;
 
 /* Style the header with a gradient background and bold text */
 header {
@@ -71,22 +71,22 @@ footer {
 /* side nav bar
 
 
+
+
 .sidebar {
     height: 100vh;
-    width: 330px; /* Adjust the width as per your preference */
+    width: 250px;
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #333;
+    background-color: #141b41; /* Very dark blue background */
+    color: #ffffff;
     padding-top: 20px;
 }
 
 .sidebar nav ul {
     list-style-type: none;
-    background-color: #333; /* Dark gray background for menu */
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    padding: 0;
 }
 
 .sidebar nav ul li {
@@ -94,7 +94,7 @@ footer {
 }
 
 .sidebar nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     padding: 10px 20px;
@@ -104,10 +104,14 @@ footer {
 }
 
 .sidebar nav ul li a:hover {
-    color: #DAAD86; /* Red color on hover */
+    background-color: #2a335f; /* Darker blue color on hover */
 }
 
 .content {
     margin-left: 250px;
     padding: 20px;
+}
+
+header, section, footer {
+    margin-bottom: 40px;
 }
