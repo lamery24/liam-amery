@@ -19,6 +19,23 @@ header {
     text-align: center;
 }
 
+/* Style content boxes for front page */
+.box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.box-image {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Style the navigation menu with a subtle shadow effect */
 nav ul {
     list-style-type: none;
