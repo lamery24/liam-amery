@@ -171,7 +171,7 @@ footer {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
@@ -203,7 +203,7 @@ footer {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 20px 0 0 20px;
 }
 
 .prev {
