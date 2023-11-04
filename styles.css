@@ -32,7 +32,7 @@ header {
 }
 
 .box-image {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
 }
 
@@ -110,7 +110,7 @@ footer {
 }
 
 .centered-image {
-    max-width: 100%; /* Set maximum width to 100% of the parent container */
+    max-width: 70%; /* Set maximum width to 100% of the parent container */
     max-height: 100vh; /* Set maximum height to 100% of the viewport height */
     height: auto; /* Maintain aspect ratio */
 }
