@@ -13,7 +13,7 @@ body {
 
 /* Style the header with a gradient background and bold text */
 header {
-    background: linear-gradient(to right, #ff6f61, #ffcc5c); /* Gradient from red to yellow */
+    background: linear-gradient(to right, #0074d9, #7fdbff); /* Gradient from dark blue to light blue */
     color: #ffffff; /* White text */
     padding: 20px;
     text-align: center;
@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff6f61; /* Red color on hover */
+    color: #0074d9; /* Dark blue color on hover */
 }
 
 /* Style the main content with a subtle gradient background */
@@ -58,7 +58,7 @@ nav a:hover {
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    color: #ff6f61; /* Red color for headings */
+    color: #0074d9; /* Dark blue color for headings */
 }
 
 h2 {
@@ -75,13 +75,13 @@ p {
 
 /* Style links within the content with a smooth color transition */
 a {
-    color: #ff6f61; /* Red color for links */
+    color: #0074d9; /* Dark blue color for links */
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ffcc5c; /* Yellow color on hover */
+    color: #7fdbff; /* Light blue color on hover */
 }
 
 /* Style the footer with a dark background and white text */
