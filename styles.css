@@ -32,7 +32,7 @@ header {
 }
 
 .box-image {
-    max-width: 10px;
+    max-width: 50px;
     height: auto;
 }
 
@@ -90,6 +90,12 @@ p {
     margin-bottom: 20px;
 }
 
+p {
+    font-size: .9em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
 /* Style links within the content with a smooth color transition */
 a {
     color: #0074d9; /* Dark blue color for links */
@@ -110,7 +116,7 @@ footer {
 }
 
 .centered-image {
-    max-width: 70%; /* Set maximum width to 100% of the parent container */
+    max-width: 60%; /* Set maximum width to 100% of the parent container */
     max-height: 100vh; /* Set maximum height to 100% of the viewport height */
     height: auto; /* Maintain aspect ratio */
 }
