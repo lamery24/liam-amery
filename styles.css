@@ -184,11 +184,11 @@ footer {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
-  /*margin-top: -22px;
-  padding: 16px;*/
+  margin-top: -22px;
+  padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 8px;
@@ -218,7 +218,7 @@ footer {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -230,7 +230,7 @@ footer {
   font-size: 12px;
   padding: 8px 12px;
   position: relative;
-  top: 0;
+  top: 25px;
 }
 
 /* The dots/bullets/indicators */
