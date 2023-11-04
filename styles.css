@@ -91,3 +91,9 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.centered-image {
+    max-width: 100%; /* Set maximum width to 100% of the parent container */
+    max-height: 100vh; /* Set maximum height to 100% of the viewport height */
+    height: auto; /* Maintain aspect ratio */
+}
