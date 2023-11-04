@@ -35,7 +35,7 @@ header {
     max-width: 20%; /* Set maximum width to 100% of the parent container */
     max-height: 100vh; /* Set maximum height to 100% of the viewport height */
     height: auto;
-    margin-left: 15px;
+     padding: 30px;
 }
 
 /* Style the navigation menu with a subtle shadow effect */
