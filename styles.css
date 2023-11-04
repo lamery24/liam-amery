@@ -22,7 +22,7 @@ header {
 /* Style content boxes for front page */
 .box {
     display: flex;
-    align-items: center;
+    align-items: left;
     padding: 20px;
     border: 1px solid #ccc;
     max-width: 800px;
