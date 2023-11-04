@@ -63,7 +63,7 @@ margin-bottom: 20px;
 
 .box-image {
     max-width: 20%; /* Set maximum width to 100% of the parent container */
-    max-height: 100vh; /* Set maximum height to 100% of the viewport height */
+    /*max-height: 100vh;  Set maximum height to 100% of the viewport height */
     height: auto;
      padding: 15px;
 }
@@ -219,7 +219,7 @@ footer {
   font-size: 15px;
   padding: 8px 12px;
   position: relative;
-  bottom: 0px;
+  bottom: -20px;
   /*width: 100%;
   text-align: center;*/
 }
