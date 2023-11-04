@@ -171,7 +171,7 @@ footer {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  max-width: 90%;
   position: right;
   margin: auto;
 }
@@ -187,11 +187,11 @@ footer {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  /*margin-top: -22px;
+  padding: 16px;*/
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 8px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
