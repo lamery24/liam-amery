@@ -119,13 +119,13 @@ h1 {
     color: #0074d9; /* Dark blue color for headings */
 }
 
-h3 {
+h2 {
     font-size: 2.8em;
     margin-bottom: 25px;
     margin-top: -15px;
     color: #002A53; /* Dark gray color for subheadings */
 }
-h2 {
+h3 {
     font-size: 2.4em;
     margin-bottom: 25px;
     margin-top: -15px;
