@@ -281,13 +281,18 @@ footer {
 /* Style each gallery item */
 .gallery-item {
     text-align: center;
+    flex: 0 0 30%; /* Set a specific width for each item (adjust as needed) */
+    max-width: 300px; /* Set a maximum width for each item (adjust as needed) */
+    padding: 10px; /* Optional: Add padding for spacing around images */
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 /* Style the image inside each gallery item */
 .gallery-item img {
-    width: auto; /* Allow the width to adjust according to the aspect ratio */
+    width: 100%; /* Ensure the image takes 100% of the width within its container */
     height: 200px; /* Set a fixed height for all images */
     object-fit: cover; /* Ensure the image covers the specified height without stretching */
+    object-position: center; /* Center the image horizontally */
 }
 
 /* Style the captions */
