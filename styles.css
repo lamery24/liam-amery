@@ -126,9 +126,9 @@ h2 {
     color: #002A53; /* Dark gray color for subheadings */
 }
 h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     margin-bottom: 25px;
-    margin-top: -15px;
+    margin-top: 15px;
     color: #333; /* Dark gray color for subheadings */
 }
 p {
